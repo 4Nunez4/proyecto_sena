@@ -1,0 +1,23 @@
+body{background-color: rgb(0, 0, 0);}
+img{
+    height: auto ;
+    width:  auto;
+}
+h1{
+ font-family: 'Prata', serif;;
+}
+.box {
+    background-color: rgb(0, 0, 0);
+    color: rgb(61, 61, 61);
+    border: 2px solid #8f8f8f; 
+    text-align: horizontal; 
+    display: inline-block;
+    width: auto;
+    height: auto;
+    font-size: 1.3em;
+    color: black;
+}
+.button:hover {
+    background-color: #4CAF50; /* Green */
+    color: white;
+}

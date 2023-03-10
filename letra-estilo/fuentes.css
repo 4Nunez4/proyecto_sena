@@ -1,0 +1,22 @@
+<<<<<<< HEAD
+h2{
+    font-size: 100px; 
+    font-weight: 900;
+    font-family: 'Playfair Display', serif;
+}
+h1{
+    font-style: italic;  /*estilos de letra*/ 
+}
+=======
+
+    h2{
+        font-size:250px; /*Tamaño de la imagen*/
+        font-weight: 900; /*Grosor de la letra*/
+        font-style: italic;/*Estilos de letra*/
+        font-family: 'Gloock', serif;
+
+    }
+    h1{
+        font-style: italic;
+    }
+>>>>>>> 1f054e1fd6e41e74b23c19b226985e5d1d5e68b8
