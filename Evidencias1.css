@@ -1,15 +1,15 @@
 body{
     background-image : url(./fondo-futurista-abstracto-diseno-3d_1361-3532.avif);
-    background-repeat: no-repeat;
-    background-attachment: fixed;
-    background-size: cover;
+    background-repeat: no-repeat;/**/
+    background-attachment: fixed;/**/
+    background-size: cover;/**/
 }
 img{
-    height: auto ;
-    width:  auto;
+    height: auto ;/**/
+    width:  auto;/**/
 }   
 .punto{
- list-style: none;
+ list-style: none;/**/
 }
 
 h1{
