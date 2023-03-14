@@ -23,7 +23,7 @@ h1{
     text-align: center;	
     text-decoration: none;
     outline: none;
-    color: #73d71b00 ;/*punto culero*/
+    list-style: none;
     background-color: #9184ae00;/*primer color */
     border: none;
     border-radius: 15px;
