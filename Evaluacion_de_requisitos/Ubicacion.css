@@ -18,11 +18,10 @@ box-shadow: 0 10px #800000;/* nose para que */
 transform: translateY(4px);
 } 
 .raya{
-    text-decoration: none;/*para quitar la raya baja de el link */
-  }
+    text-decoration: none;/*para quitar la raya baja de el link */}
 .fondo{
     background-image: url(./img/1000_F_572180546_LnklEWgI5n413HvqsPDDw5tOEeQZjvVY.jpg);
     background-repeat: no-repeat;/* no repetir la imag*/
     background-attachment: fixed;
-    background-size: cover;/**/  
-  }
+    background-size: cover;/**/ }
+h1{color:#800000 ;}  
