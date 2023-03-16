@@ -14,7 +14,7 @@
 .button1:hover {background-color: #3c0101}/*segundo color */
 .button1:active {
 background-color: #690e0e; /* nose */
-box-shadow: 0 10px #800000;/* nose para que */
+box-shadow: 0 10px #800000;/* nose para que*/
 transform: translateY(4px);
 } 
 .raya{
