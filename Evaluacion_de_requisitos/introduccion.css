@@ -26,3 +26,16 @@
       background-attachment: fixed;
       background-size: cover;/**/  }
 h1{color:#800000 ;}  
+.box-style{
+  width: 500px;/*ancho*/
+  height: 200px;/*largo*/
+  display: inline-block; /**/
+  margin: 20px;/*separa los elementos*/
+  color: aliceblue;
+}
+.box{
+  font-size: 25px;
+    color: rgb(60, 6, 6);
+    background-color: rgba(82, 53, 53, 0.552);
+    border: 5px dashed rgb(60, 6, 6);
+}

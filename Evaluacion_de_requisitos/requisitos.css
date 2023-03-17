@@ -38,3 +38,29 @@ p{color: #ffffff;}
 .raya{
     text-decoration: none;/*para quitar la raya baja de el link */
   }
+.contenedor-padre {
+    display: flex;
+    margin: 50px 50px 50px 170px;/*1 arriba,2 derecha,3 abajo,4 izquierda */
+    
+  }
+  
+.box-style{
+    width: 45%;
+    height: 200px;
+    border-radius: 15px;
+   
+  }
+  
+.box-1{
+  font-size: 17px;
+    color: rgb(60, 6, 6);
+    background-color: rgba(82, 53, 53, 0.552);
+    border: 5px dashed rgb(60, 6, 6);
+  }
+  
+.box-2{
+  font-size: 25px;
+  color: rgb(60, 6, 6);
+  background-color: rgba(82, 53, 53, 0.552);
+  border: 5px dashed rgb(60, 6, 6);
+  }
