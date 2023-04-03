@@ -1,0 +1,27 @@
+body{
+    text-align: center;
+
+}
+h2{
+    background-color: black;
+    color: aliceblue;
+}
+.button1 {
+    display: inline-block;
+    padding: 15px 15px;
+    font-size: 24px;
+    cursor: pointer;
+    text-align: center;	
+    text-decoration: none;
+    outline: none;
+    list-style: none;
+    background-color: #9184ae00;/*primer color */
+    border: none;
+    border-radius: 10px;
+    box-shadow: 0 9px #000000; }/*segunda margen */
+.button1:hover {background-color: #010101a3}/*segundo color */
+.button1:active {
+  background-color: #321577; /* nose */
+  box-shadow: 0 5px #2e1469;/* nose para que */
+  transform: translateY(4px);
+  }
