@@ -1,0 +1,15 @@
+*{font-family: Arial, Helvetica, sans-serif;
+text-align: center;
+}
+body{
+
+    background-color: #171638;
+    color: #f9355e ;
+}
+button{
+    font-size: 18px;
+    padding: 5px 15px;
+    background-color: #f9355e;
+    border:none;
+    border-radius: 15px;
+}
