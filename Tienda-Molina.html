@@ -43,24 +43,41 @@
         </div>
 <!-- ======================================================================== -->
         <h1>producto y cantidad</h1>
-        <select name="" id="">
-            <option value="">Sally Carrera</option>
-            <option value="">Mate</option>
-            <option value="">Sheriff</option>
-            <option value="">Rayo McQueen</option>
-            <option value="">El Rey</option>
-        </select>
-        <input type="number">
-
-            
+        <div>
+                <select name="" id="productos">
+                        <option value="">Sally Carrera</option>
+                        <option value="">Mate</option>
+                        <option value="">Sheriff</option>
+                        <option value="">Rayo McQueen</option>
+                        <option value="">El Rey</option>
+                </select>
+                <select name="" id="productos2">
+                        <option value="">Sally Carrera</option>
+                        <option value="">Mate</option>
+                        <option value="">Sheriff</option>
+                        <option value="">Rayo McQueen</option>
+                        <option value="">El Rey</option>
+                </select>      
+        </div>
+        <div>
+                <input type="number" id="cantidad1" placeholder="cantidad">
+                <input type="number" id="cantidad2" placeholder="cantidad">
+        </div>
+        <div>
+                <input type="number" id="precio1" placeholder="precio1">
+                <input type="number" id="precio2" placeholder="precio">
+        </div>
 
         <h1>precio total y facturacion</h1>
         
          
-        
          
-        <button onclick="preciototal()">precio total</button>
-        <button onclick="facturacion()">facturacion</button>
+        <button onclick="calcular()" onclick="calcularTotal(precio1, precio2)" id="totalAbsoluto">precio total</button>
+        <button onclick="getFactura()">facturacion</button>
+        
+
+
+
     </div>    
 </body>
 </html>
