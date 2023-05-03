@@ -48,8 +48,21 @@ ul{
     list-style: none;
     font-size: 14px;
     padding-right: 5px;
+
 }
 .pulsor{
-    margin: 20px;
-
+    margin: 10px;
+    
+}
+.pulsor-1{
+    margin-right: 100px;
+}
+.pulsor-2{
+    margin-right: 100px;
+}
+.pulsor-3{
+    margin-right: 100px;
+}
+.pulsor-4{
+    margin-right: 100px;
 }
