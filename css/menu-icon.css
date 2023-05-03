@@ -8,7 +8,7 @@
     color: rgb(226, 5, 5);
 }
 .pulsor:hover{
-    background-color: rgb(173, 81, 81);
+    background-color: #b1b0b9;
     border-radius: 5px;
 }
 nav{
@@ -29,4 +29,7 @@ ul {
 }
 a {
     text-decoration: none;
+}
+li{
+    margin: 15px;
 }
