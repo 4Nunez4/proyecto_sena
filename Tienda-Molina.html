@@ -14,67 +14,105 @@
         <div class="producto-box">
          <img  src="./css/img-Tienda-Molina/carro-amarillo-1.png">
          <label class="producto">Sally Carrera</label>
-         <label class="precio">1.000.000</label>
+         <label class="precio">250.000</label>
         </div>
 <!-- ======================================================================== -->
         <div class="producto-box">
          <img  src="./css/img-Tienda-Molina/mateee.png">
          <label class="producto">Mate </label>
-         <label class="precio">1.000.000</label>
+         <label class="precio">210.000</label>
         </div>
 <!-- ======================================================================== -->
         <div class="producto-box">
          <img  src="./css/img-Tienda-Molina/policia.png">
          <label class="producto">Sheriff</label>
-         <label class="precio">1.000.000</label>
+         <label class="precio">180.000</label>
         </div>
 <!-- ======================================================================== -->
         <div class="producto-box">
          <img  src="./css/img-Tienda-Molina/rayo.png">
          <label class="producto">
             Rayo McQueen</label>
-         <label class="precio">1.000.000</label>
+         <label class="precio">150.000</label>
         </div>
 <!-- ======================================================================== -->
         <div class="producto-box">
          <img  src="./css/img-Tienda-Molina/rey.png">
          <label class="producto">El Rey</label>
-         <label class="precio">1.000.000</label>
+         <label class="precio">120.000</label>
         </div>
 <!-- ======================================================================== -->
         <h1>producto y cantidad</h1>
         <div>
-                <select name="" id="productos">
-                        <option value="">Sally Carrera</option>
-                        <option value="">Mate</option>
-                        <option value="">Sheriff</option>
-                        <option value="">Rayo McQueen</option>
-                        <option value="">El Rey</option>
-                </select>
-                <select name="" id="productos2">
-                        <option value="">Sally Carrera</option>
-                        <option value="">Mate</option>
-                        <option value="">Sheriff</option>
-                        <option value="">Rayo McQueen</option>
-                        <option value="">El Rey</option>
-                </select>      
-        </div>
-        <div>
-                <input type="number" id="cantidad1" placeholder="cantidad">
-                <input type="number" id="cantidad2" placeholder="cantidad">
-        </div>
-        <div>
-                <input type="number" id="precio1" placeholder="precio1">
-                <input type="number" id="precio2" placeholder="precio">
-        </div>
+            <label>Producto 1:</label>
+                <select id="productos" onchange="precio1()">
+                <option value="120000">El Rey</option>
+                <option value="150000">Rayo McQueen</option>
+            </select>
+            <br />
+            <label>Cantidad:</label>
+                <input type="number" id="cantidad1" placeholder="0" />
+            <br />
+            <label>Precio:</label>
+                <input type="number" id="precio1" value="90000" disabled />
+            <br />
+            <span id="total1"></span>
 
-        <h1>precio total y facturacion</h1>
-        
-         
-         
-        <button onclick="calcular()" onclick="calcularTotal(precio1, precio2)" id="totalAbsoluto">precio total</button>
-        <button onclick="getFactura()">facturacion</button>
-        
+            <label>Producto 2:</label>
+            <select id="productos2" onchange="precio2()">
+                <option value="180000">Sheriff</option>
+                <option value="210000" >Mate </option>
+                <option value="250000">Sally Carrera</option>
+            </select>
+            <br />
+            <label>Cantidad:</label>
+                <input type="number" id="cantidad2" placeholder="0" />
+            <br />
+            <label>Precio:</label>
+                <input type="number" id="precio2" value="180000" disabled readonly />
+            <br />  
+            <div>
+                <h1>precio</h1>
+            </div>
+            <div>
+                <button onclick="limpiarCantidad()">Limpiar Cantidad</button>
+            </div>
+            
+            <div>
+                <button onclick="calcular()">Calcular</button>
+            </div>
+                <span id="total2"></span>
+                <hr>
+        </div>
+        <div>
+            <button onclick="getFactura()">factura</button>
+            <p id="factura"></p>
+        </div>
+    <div>
+   
+  
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 

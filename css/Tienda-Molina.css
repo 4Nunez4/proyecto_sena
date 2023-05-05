@@ -33,6 +33,7 @@ input{
     padding: 10px 25px;
     border-radius: 15px;
     margin-bottom: 20px;
+    background-color: #fff;
 }
 select{
     padding: 10px 25px;
@@ -40,4 +41,11 @@ select{
     margin-bottom: 20px;
     margin-left: 32px;
     margin-right: 32px;
+}
+hr{
+    margin-left: 600px;
+    margin-right: 600px;
+}
+lu{
+    list-style: none;
 }
