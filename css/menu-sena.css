@@ -44,15 +44,23 @@ ul{
     border-top: none;
     margin-top: 300px;
 }
+.vertical1{
+    margin-left: -50PX;
+}
+
+
+
+
 .vertical2{
     list-style: none;
     font-size: 14px;
     padding-right: 5px;
+    margin-left: 100px;
+  
 
 }
 .pulsor{
     margin: 10px;
-    
 }
 .pulsor-1{
     margin-right: 100px;
@@ -64,5 +72,38 @@ ul{
     margin-right: 100px;
 }
 .pulsor-4{
+    margin-right: 100px;
+}
+.pulsor-5{
+    margin-right: 100px;
+}
+.pulsor-6{
+    margin-right: 100px;
+}
+.pulsor-7{
+    margin-right: 100px;
+}
+.pulsor-8{
+    margin-right: 100px;
+}
+.pulsor-9{
+    margin-right: 100px;
+}
+.pulsor-10{
+    margin-right: 100px;
+}
+.pulsor-11{
+    margin-right: 100px;
+}
+.pulsor-12{
+    margin-right: 100px;
+}
+.pulsor-13{
+    margin-right: 100px;
+}
+.pulsor-14{
+    margin-right: 100px;
+}
+.pulsor-15{
     margin-right: 100px;
 }

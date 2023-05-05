@@ -13,20 +13,45 @@
  
  <h1>FORMULARIO DE FICHA TECNICA</h1>
     <h2>Caracteristicas del producto</h2>
-
     <p>
         <input type="text" id="nom-producto" placeholder="nombre del producto"> 
-        <p id="res-producto"></p>
     </p>
+
     <p>
         <h2>Nombre de produccion</h2>
         <input type="text" id="nom-produccion" placeholder="nombre de produccion">
-        
-        <p id="res-produccion"></p>
     </p>
     <p>
-        <button onclick="formulario()" class="button1">Enviar</button>
+        <h3> version anterior</h3>
+        <input type="text" id="anterior" placeholder="numero anterior">
+        </p>
+        <p>
+        <h3>version actual</h3>
+        <input type="text" id="actual" placeholder="numero actual">
+        </p>
+        <p>
+        <h3>modulo</h3>
+        <input type="text" id="modulo" placeholder="nombre del modulo">
     </p>
+
+    
+
+    <a href="resultado.html" target="_blank" rel="noopen" >
+        <button onclick="formulario()" class="button1">Enviar</button>
+    </a>
+        <div id="RESULTADO">
+            <p id="res-produccion"></p>
+            <p id="res-producto"></p>
+            <p id="res-anterior"></p>
+            <p id="res-actual"></p>
+            <p id="res-modulo"></p>
+        </div>
+
+
+
+    
    
+
+
 </body>
 </html>

@@ -4,5 +4,14 @@ function formulario(){
     
     let produccion = document.getElementById("nom-produccion").value
     document.getElementById("res-produccion").innerText = produccion
-    console.log(producto, produccion)
+   
+    let version = document.getElementById("anterior").value
+    document.getElementById("res-anterior").innerText = version
+
+    let versiona = document.getElementById("actual").value
+    document.getElementById("res-actual").innerText = versiona
+
+    let modulo = document.getElementById("modulo").value
+    document.getElementById("res-modulo").innerText = modulo
 }
+
