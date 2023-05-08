@@ -1,6 +1,5 @@
 span{
-    margin-right: 0px;
-    padding: 5px 9px;
+    padding: 5px 6px;
     color: #575756;
     border-right: 1px solid #00af00;
     font-family: calibri, sans-serif;
@@ -10,6 +9,7 @@ span{
 li{
     list-style: none;
     display: inline-block;
+
 }
 ul{
     text-align: center;
@@ -28,82 +28,39 @@ ul{
     margin-top: -100px;
 }
 .logoSena{
-    
+    text-align: left;
     margin-left: 200px;
 }
 
 .vertical{
-    position: fixed;
-    top: 0;
-    left: 0;
-    width: 350px;
-    height: 100vh;
+    width: 150px;
     font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
-    border: 1px solid;
     border-bottom: none;
     border-top: none;
-    margin-top: 300px;
+  
 }
-.vertical1{
-    margin-left: -50PX;
-}
-
-
-
 
 .vertical2{
     list-style: none;
     font-size: 14px;
     padding-right: 5px;
-    margin-left: 100px;
-  
+    padding-left: 5px;
+}
+button{
+    width: 200px;
+    height: 50px;
+    padding: 5px 9px;
+    margin: 1px;
+    background-color: #575656;
+    border: none;
+    color: #fff;
+    border-radius: 3px;
+    margin-left: 170px;
+}
+button:hover{
+    background-color: #7f7e7e; 
+    cursor: pointer;
+}
 
-}
-.pulsor{
-    margin: 10px;
-}
-.pulsor-1{
-    margin-right: 100px;
-}
-.pulsor-2{
-    margin-right: 100px;
-}
-.pulsor-3{
-    margin-right: 100px;
-}
-.pulsor-4{
-    margin-right: 100px;
-}
-.pulsor-5{
-    margin-right: 100px;
-}
-.pulsor-6{
-    margin-right: 100px;
-}
-.pulsor-7{
-    margin-right: 100px;
-}
-.pulsor-8{
-    margin-right: 100px;
-}
-.pulsor-9{
-    margin-right: 100px;
-}
-.pulsor-10{
-    margin-right: 100px;
-}
-.pulsor-11{
-    margin-right: 100px;
-}
-.pulsor-12{
-    margin-right: 100px;
-}
-.pulsor-13{
-    margin-right: 100px;
-}
-.pulsor-14{
-    margin-right: 100px;
-}
-.pulsor-15{
-    margin-right: 100px;
-}
+
+
