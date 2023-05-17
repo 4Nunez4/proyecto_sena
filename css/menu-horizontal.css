@@ -1,44 +1,56 @@
-html, body{
-    height: 100%;
+*{
     margin: 0;
     padding: 0;
 }
-
-.izquierda{ 
-    border-bottom: 1px solid gray;
+.main-nav{
+    background-color: rgb(63, 56, 56);
+    height: 80px;
 }
-.hamburguer{
-    width: 35px;
-    display:none;
+.main-menu{
+    width: 100%;
+    text-align: right;
+    position: fixed;
 }
-@media only screen and (max-width:768px){
-    /* desaparecemos el menu*/
-    .menu{
-        display: none;
+.item-style{
+    display: inline-block;
+    line-height: 70px;
+    margin: 0 30px;
+    list-style: none;
+}
+a{
+    color: ivory;
+    font-family: sans-serif;
+    font-size: 1.5em;
+    text-decoration: none;
+}
+.hamburguer-Menu{
+    display: none;
+}
+@media only screen and (max-width: 768px){
+    .main-menu{
+        position: fixed;
+        left: -100%;
+        transition: left 1500ms;
     }
-    .hamburguer{
-        display:inline-block;
+    .main-menu-block{
+        display: block;
+        background-color: black;
+        padding: 30px;
+        height: 430px;
+        left: 0;
+    }
+    .item-style{
+        display: block;
+    }
+    .hamburguer-Menu{
+        display: inline-block;
+        color: #ffffff;
         font-size: 2.3em;
         margin-top: 10px;
         margin-left: 25px;
-        color: #000;
     }
-}
-li{
-    list-style: none;
-    display: inline-block;
-    margin-right: 20px;
+    .hamburguer-Menu:hover{
+        cursor: pointer;
+    }
 
 }
-a{
-    text-decoration: none;
-    color: #000000;
-    
-}
-.contenido{
-    justify-content: right;
-    text-align: right;
-    margin-top: -75px;
-    margin-right: 50px;
-}
-
