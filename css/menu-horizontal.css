@@ -3,7 +3,7 @@
     padding: 0;
 }
 .main-nav{
-    background-color: rgb(63, 56, 56);
+    background-color: rgb(0, 0, 0);
     height: 80px;
 }
 .main-menu{
@@ -16,6 +16,7 @@
     line-height: 70px;
     margin: 0 30px;
     list-style: none;
+    
 }
 a{
     color: ivory;
@@ -30,17 +31,20 @@ a{
     .main-menu{
         position: fixed;
         left: -100%;
-        transition: left 1500ms;
     }
     .main-menu-block{
         display: block;
-        background-color: black;
+        background-color: rgba(0, 0, 0, 0.674);
         padding: 30px;
-        height: 430px;
+        height: 415px;
         left: 0;
+        transition: all 0.8s;
+        position: fixed;
+        
     }
     .item-style{
         display: block;
+        border-bottom: 1px solid gray;
     }
     .hamburguer-Menu{
         display: inline-block;
