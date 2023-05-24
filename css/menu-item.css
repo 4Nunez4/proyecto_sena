@@ -1,0 +1,66 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: tahoma, sans-serif;
+}
+nav{
+    font-size: 1.2rem;
+    width: 100%;
+}
+nav, ul{
+    width: 100%;
+    text-align: left;
+    position: absolute;
+    list-style: none;
+    left: 0;
+    background-color: rgb(172, 48, 16);
+    
+}
+/*primer menu*/
+
+.first-item{
+    margin-left: 50px;
+}
+nav > ul > li {
+    display: inline-block;
+    width: 250px;
+    line-height: 70px;
+    text-align: center;
+   
+}
+nav > ul > li:hover{
+    background-color: rgb(219, 57, 28);
+    cursor: pointer;
+
+    
+}
+
+a{
+    text-decoration: none;
+    color: white;
+}
+ul li {
+    position: relative;
+}
+/*segundo nivel ¨*/
+nav li li {
+   max-height: 0;
+   overflow: hidden;
+}
+nav li:hover > ul > li {
+    max-height: 500px;
+    overflow: visible;
+    text-align: center;
+    border-bottom: 1px solid rgb(245, 245, 245);
+}
+nav li > ul > li:hover{
+    background-color: rgb(219, 57, 28);
+    cursor: pointer;
+
+}
+/* tercer nivel */
+nav ul ul ul {
+    top: 0;
+    left: 100%;
+    
+}
