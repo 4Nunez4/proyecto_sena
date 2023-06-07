@@ -1,0 +1,82 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: tahoma, sans-serif;
+}
+.tex-on-off{
+    font-size: 2em;
+    font-weight: 700;
+    color: aliceblue;
+}
+.tex-on{
+    position: relative;
+    top: 39px;
+    left: 170px;
+}
+.text-off{
+    position: relative;
+    top: 39px;
+    left: -30px;
+}
+.padre{
+    position: relative;
+    background-color: burlywood;
+    height: 120px;
+    width: 250px;
+    border-radius: 60px;
+    margin: 50px;
+}
+.padre:hover{
+    transition: all 1s;
+    background-color: rgb(128, 93, 48);
+
+}
+.hijo{
+    position: relative;
+    left: 5px;
+    top: -34px;
+    background-color: rgb(255, 209, 91);
+    height: 110px;
+    width: 110px;
+    border-radius: 55px;
+}
+/* .hijo:hover{
+    transition: all 2s;
+    margin-left: 130px;
+    cursor: pointer;
+    background-color: rgb(255, 183, 0);
+} */
+.padre:hover >.hijo{
+    transition: all 1s;
+    position: relative;
+    left: 135px;
+    top: -34px;
+    background-color: rgb(255, 209, 91);
+    height: 110px;
+    width: 110px;
+    border-radius: 55px;
+
+}
+@media only screen and (max-width: 768px){
+    .hijo-cam{
+
+        position: relative;
+        left: 5px;
+        top: -34px;
+        background-color: rgb(255, 209, 91);
+        height: 110px;
+        width: 110px;
+        border-radius: 55px;
+        transition: all 1s;
+
+    }
+    .padre-cam{
+        position: relative;
+        left: 5px;
+        top: -34px;
+        height: 110px;
+        width: 110px;
+        
+    }
+
+}
