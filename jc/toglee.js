@@ -1,18 +1,19 @@
-let padre = document.getElementById("padre-box");
-let hijo = document.getElementById("hijo-box");
+/* 1. Asocimos el id del toglee-box */
+let contenedorPrincipal = document.getElementById("contenedorPrincipal");
+let contenedorScundario = document.getElementById("contenedorScundario");
 
-padre .addEventListener("click", function() {
-    if (hijo.classList.contains("hijo") ){
-        hijo.classList.add("hijo-cam","padre-cam");
-        hijo.classList.remove("hijo");
-        hijo.classList.add("hijo-cam","padre-cam");
-        hijo.classList.remove("hijo");
-    
+/* 2. Verificamos que clase se encuentra en chice-box */
+contenedorPrincipal.addEventListener("click", function() {
+    if (contenedorScundario.classList.contains("contenedor2-off")) {
+        contenedorScundario.classList.add("contenedor2-on")
+        contenedorScundario.classList.remove("contenedor2-off")
+        contenedorPrincipal.classList.add("contenedor1-on")
+        contenedorPrincipal.classList.remove("contenedor1-off")
     }
     else {
-        hijo.classList.remove("hijo-cam","padre-cam");
-        hijo.classList.add("hijo");
-        hijo.classList.remove("hijo-cam","padre-cam");
+        contenedorScundario.classList.remove("contenedor2-on")
+        contenedorScundario.classList.add("contenedor2-off")
+        contenedorPrincipal.classList.remove("contenedor1-on")
+        contenedorPrincipal.classList.add("contenedor1-off")
     }
-   
 });
