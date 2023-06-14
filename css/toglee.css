@@ -27,11 +27,11 @@
     margin: 50px;
 background-color: burlywood; 
 }
-/* .padre:hover{
+.padre:hover{
     transition: all 1s;
     background-color: rgb(128, 93, 48);
 
-} */
+ }
 .hijo{
     position: relative;
     left: 5px;
