@@ -20,17 +20,18 @@
 }
 .padre{
     position: relative;
-    background-color: burlywood;
+  
     height: 120px;
     width: 250px;
     border-radius: 60px;
     margin: 50px;
+background-color: burlywood; 
 }
-.padre:hover{
+/* .padre:hover{
     transition: all 1s;
     background-color: rgb(128, 93, 48);
 
-}
+} */
 .hijo{
     position: relative;
     left: 5px;
@@ -39,6 +40,7 @@
     height: 110px;
     width: 110px;
     border-radius: 55px;
+
 }
 /* .hijo:hover{
     transition: all 2s;
@@ -51,32 +53,34 @@
     position: relative;
     left: 135px;
     top: -34px;
-    background-color: rgb(255, 209, 91);
     height: 110px;
     width: 110px;
     border-radius: 55px;
 
 }
-@media only screen and (max-width: 768px){
-    .hijo-cam{
 
-        position: relative;
-        left: 5px;
-        top: -34px;
-        background-color: rgb(255, 209, 91);
-        height: 110px;
-        width: 110px;
-        border-radius: 55px;
-        transition: all 1s;
+.hijo-cam{
 
-    }
-    .padre-cam{
-        position: relative;
-        left: 5px;
-        top: -34px;
-        height: 110px;
-        width: 110px;
-        
-    }
+position: relative;
+left: 5px;
+top: -34px;
+
+height: 110px;
+width: 110px;
+border-radius: 55px;
+
+transition: all 1s;
+background-color: rgb(255, 209, 91);
+transition: all 1s;
+background-color: rgb(128, 93, 48);
+}
+.padre-cam{
+position: relative;
+left: 5px;
+top: -34px;
+height: 110px;
+width: 110px;
+
+
 
 }
