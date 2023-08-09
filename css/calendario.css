@@ -41,7 +41,7 @@
     height: 100vh;
     display: grid;
     border: firebrick;
-    grid-template-columns:  repeat(7,200px) ;
+    grid-template-columns: repeat(7,200px) ;
     grid-template-rows:  repeat(6,100px)  ;
     grid-gap: 10px 20px;
     align-content: center;
@@ -51,6 +51,7 @@
     grid-column-start: 4 ;   
 }
 .contenedor .dia{
+    border-radius: 20px;
     display: flex ;
     background-color: rgba(137, 43, 226, 0.753) ;
     justify-content: center;
@@ -58,10 +59,12 @@
     color: white;
 }
 .contenedor .festivo{
+    border-radius: 15px;
     background-color: rgba(78, 23, 129, 0.829);
     color: white;
 }
 .box{
+border-radius: 15px;   
 background-color: rgba(0, 0, 0, 0.719);
 border: 1px solid  white;
 color: white;
