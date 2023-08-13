@@ -78,7 +78,7 @@ header{
    ///////////////////////////////////////////////////////////////////////////////////////// / */
 
 /* Mobile phones */
-@media only screen and (min-width :320px) and (max-width :480px) {
+@media only screen and (min-width :480px) and (max-width :700px) {
     *{
         padding: 0;
         margin: 0;  
