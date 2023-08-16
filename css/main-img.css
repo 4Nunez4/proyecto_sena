@@ -1,0 +1,20 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.box-main-img {
+    width: 100%;
+    background-image: url(./maquetacion-img/pexels-erik-karits-9981330.jpg); /* este es sin aumentp vista pc */
+    height: 100px;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+@media only screen and (max-width: 430px){
+    .box-main-img{
+        background-image: url(../img/hongos2.jpg); /* este es con aumento vista celuco */
+        width: 100%;
+        height: 600px;
+    }
+}
