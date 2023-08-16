@@ -16,7 +16,7 @@ header{
     margin-top: 50px;
     gap: 30px;
     grid-template: "logo       main-menu" 80px / 
-                   150px       minmax(700px,100%);
+                   150px       minmax(500px,100%);
 }
 .logo{
     border-radius: 15PX;
@@ -78,7 +78,7 @@ header{
    ///////////////////////////////////////////////////////////////////////////////////////// / */
 
 /* Mobile phones */
-@media only screen and (max-width :780px) {
+@media only screen and (max-width :750px) {
     body {
         grid-template:
           "main-page"
