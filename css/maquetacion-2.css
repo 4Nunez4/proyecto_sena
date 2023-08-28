@@ -3,6 +3,7 @@
     margin: 0;  
 }
 body{
+    background-color: rgb(172, 81, 29);
     width: 100%;
     display: grid;
     grid-template: "empty-left         main-page           empty-right"  100vh /
@@ -11,25 +12,53 @@ body{
 .main-page{
     grid-area: main-page ;
 }
+/*///////////////////////////////////////////////////////////////////////////////////*/
+.main-nav{
+    height: 80px;
+}
+.item-style{
+    display: inline-block;
+    line-height: 70px;
+    margin: 0 30px;
+    list-style: none;
+    
+}
+a{
+    color: rgb(170, 81, 29);
+    font-family: sans-serif;
+    font-size: 1.5em;
+    text-decoration: none;
+    text-align: center;
+    justify-content: center;
+}
+.hamburguer-Menu{
+    display: none;
+   
+}
+/*///////////////////////////////////////////////////////////////////////////////////*/
 header{
+  
+    position: fixed;
     display: grid;
-    margin-top: 50px;
+    margin-top: 0px;
+    background-color: white;
+    border-radius: 15px;
     gap: 30px;
     grid-template: "logo       main-menu" 80px / 
-                   170px       minmax(500px,100%);
+                   170px       minmax(1000px,100%);
 }
+
 .logo{
- 
+
     border-radius: 15PX;
     grid-area:logo   ;
     
 }
 .main-menu{
+    
     border-radius: 15PX;
     grid-area:main-menu ;
-    background-color: rgb(197, 120, 48);
     width: 100%;
-    background-image: url(./maquetacion-img/pexels-pixabay-60692.jpg); /* este es sin aumentp vista pc */
     height: 100%;
     background-position: center;
     background-repeat: no-repeat;
@@ -45,8 +74,8 @@ header{
 }
 
 .main-content{
-  
-    margin-top: 40px 70px;
+    
+    margin-top: 70px;
     display: grid;
     gap: 30px;
     grid-template: " main-img   main-img    main-img" 600px 
@@ -146,8 +175,8 @@ header{
    ///////////////////////////////////////////////////////////////////////////////////////// / */
 
 /* Mobile phones */
-@media only screen and (max-width :750px) {
-    body {
+@media only screen and (min-width :300px) and (max-width :1104px) {
+    body {  
         grid-template:
           "main-page"
           auto
@@ -159,11 +188,17 @@ header{
         margin: 20px;
       }
       header{
-        grid-template: "logo    main-menu"50px/
-                        100px       minmax(50px , 400px);
+        margin-top: -20px;
+        margin-left: -20px;
+        background-color: rgb(255, 255, 255);
+        position: fixed;
+        width: 100%;
+        grid-template: "   logo        main-menu"50px/
+                           100px  minmax(50px , 400px)   ;
         justify-content: center;
       }
       .main-content{
+        margin-top: 25px;
         grid-template: 
         "main-img"
         550px
@@ -200,6 +235,38 @@ header{
         justify-content: center;
         align-items: center;
     }
+
+
+    
+    .menu2{
+        position: fixed;
+        left: -100%;
+    }
+    .main-menu-block{
+        display: block;
+        background-color: rgba(7, 6, 4, 0.904);
+        padding: 30px;
+        height: 315px;
+        left: 0;
+        transition: all 0.8s;
+        position: fixed;
+        
+    }
+    .item-style{
+        display: block;
+        border-bottom: 1px solid gray;
+    }
+    .hamburguer-Menu{
+        display: inline-block;
+        color: #0f0f0f;
+        font-size: 2.3em; 
+    }
+    .hamburguer-Menu:hover{
+        cursor: pointer;
+    }
+
+    
+    
 }
 /* @media only screen and (max-width: 430px){
     .box-main-img{
