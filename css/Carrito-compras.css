@@ -47,7 +47,8 @@
 }
 .box-info-producto{
     grid-area: box-info-producto;
-
+    display: flex;
+    flex-direction: column;
 }
 .box-buttons-cantidad{
     font-size: 1.3em;
@@ -56,19 +57,37 @@
 }
 .box-minus,.box-cant,.box-plus{
     height: 60px;
-    width: 60px;
+    width: 66px;
     display: flex;
     justify-content: center;
     align-items: center;
-
     border: 2px solid gray;
-    
     margin-bottom: 10px;
 }
 .box-minus{
     border-radius: 10px 0 0 10px;
-    margin-left: 15px;
+    margin-left: 10px;
 }
 .box-plus{
     border-radius:  0 10px 10px 0;
+}
+.box-cant{
+    border-left:none ;
+    border-right: none;
+}
+.book-title{
+    font-size: 2em;
+    
+}
+.book-autor{
+    font-size: 1.3em;
+}
+.book-precio{
+    
+}
+.signo-precio-unidad,.precio-unidad{
+    font-size: 1.3em;
+}
+.book-description{
+    margin-bottom: 20px;
 }
