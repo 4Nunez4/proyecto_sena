@@ -11,7 +11,7 @@ header {
     height: 60px;
     display: grid;
     grid-template: "header-logo header-enviar-a box-header-search-input header-flag-country header-identificate header-devoluciones header-carrito" 60px /
-                    150px       110px           1fr                 70px                160px               120px               140px;     
+                         150px        110px           1fr                    70px                160px               120px               140px;        
 }
 .header-logo {
     grid-area: header-logo;
@@ -31,7 +31,7 @@ header {
     display: grid;
     grid-template: "box-icon-location box-texto-enviar-a" 
                    "box-icon-location box-texto-colombia" /
-                    20px          70px;  
+                       20px                  70px;  
 }
 .box-icon-location {
     height: 60px;
@@ -70,8 +70,8 @@ header {
     height: 40px;
     width: 100%;
     display: grid;
-    grid-template: "box-filtro-todos box-buscar-amazon box-lupa" /
-                    70px            1fr               50px;
+    grid-template: "box-filtro-todos  box-buscar-amazon  box-lupa" /
+                      70px                 1fr               50px;
 }
 .box-filtro-todos {
     grid-area: box-filtro-todos;
@@ -97,12 +97,12 @@ header {
     width: 100%;
 }
 .input-busqueda {
-    outline: none;
     border:none;
-    width: 60em;
     height: 40px;
     padding-left: 10px;
     font-size: 1.1em;
+    width: 100%;
+    outline: none;
 }
 .input-busqueda::placeholder {
     font-size: .8em;
