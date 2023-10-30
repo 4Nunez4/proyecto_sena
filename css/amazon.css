@@ -205,6 +205,11 @@ header {
     padding: 8px 9px;
     font-size: 15px;
 }
+.btn-infe{
+    position: absolute;
+    top: 4.7em;
+    left: 2.5em;
+}
 .volver-resultados{
     height: 100%;
     width:  100%;
@@ -285,8 +290,8 @@ background-color: #5a5a5a;
     right: 10px;
     font-size: 2em;
     border-radius: 4px;
-    width: 33px;
-    height: 35px;
+    width: 30px;
+    height: 33px;
 
 }
 .btn-close:hover{
@@ -301,6 +306,9 @@ background-color: #5a5a5a;
     display: flex;
     justify-content: center;
     align-items: center;
+}
+.img-principal{
+
 }
 
 .info-modal {
@@ -376,11 +384,11 @@ background-color: #5a5a5a;
     background-color: #fff;
     width: 60px;
     height: 60px;
-    border: 3px solid grey;
+    border: 2px solid grey;
 } 
 .img:hover{
     cursor: pointer;
-    border: 3px solid rgb(21, 33, 202);
+    border: 2px solid rgb(15, 25, 168);
 }
 
 /*////////////fin del desplegable //////////////////////*/
