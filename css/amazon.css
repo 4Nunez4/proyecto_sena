@@ -244,19 +244,19 @@ header {
 }
 .box-modal-img{
     position: relative;
-    display: flex;
-    flex-direction: column;
     width: 97%;
     height: 50%;
     margin-top: 10px;
     display: grid;
-    grid-template:"box-img-1 box-img-2 box-img-3 box-img-4 " 
-                  "box-img-5 box-img-6  box-img-7 box-img-8" /
-                   repeat(4, 1fr);
+   
+    grid-template:"box-img-1 box-img-2 box-img-3 box-img-4 "70px
+                  "box-img-5 box-img-6  box-img-7 box-img-8"70px/
+                         73px  73px  73px  73px;
 }
-.box-modal-img > div {
+.box-modal-img > .img {
     display: flex;
     justify-content: center;
+    border-radius: 5px solid gray;
 }
 
 .box-img-1{grid-area: box-img-1;}
@@ -266,7 +266,8 @@ header {
 .box-img-5{grid-area: box-img-5;}
 .box-img-6{grid-area: box-img-6;}
 .box-img-7{grid-area: box-img-7;}
-.box-img-8{grid-area: box-img-8;}
+.box-img-8{grid-area: box-img-8;} 
+
 .img{
     background-color: #fff;
     width: 60px;
