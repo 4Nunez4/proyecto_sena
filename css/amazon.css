@@ -218,7 +218,6 @@ header {
 } 
 .box-img-modal{
     grid-area:  box-img-modal;
-    background-color: rgb(0, 0, 126);
     width: 100%;
     height: 100%;
     display: flex;
@@ -229,7 +228,6 @@ header {
 
 .info-modal{
     grid-area: info-modal;
-    background-color: rgb(62, 1, 148);
     display: flex;
     width: 90%;
     height: 100%;  
@@ -246,8 +244,8 @@ header {
 }
 .box-modal-img{
     position: relative;
-    background-color: black;
     display: flex;
+    flex-direction: column;
     width: 97%;
     height: 50%;
     margin-top: 10px;
