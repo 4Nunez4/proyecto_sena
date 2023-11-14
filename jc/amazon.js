@@ -20,6 +20,15 @@ btnClose.addEventListener('click', function(){
     mainContent.style.display = "none";
     });
 
+//////////////////////////////////////////////////////////////////////
+let star1 = document.getElementById("star1"),
+star2 = document.getElementById("star2"),
+star3 = document.getElementById("star3"),
+star4 = document.getElementById("star4"),
+star5 = document.getElementById("star5"),
+puntuacion = document.getElementById("puntuacion").value;
+
+
 
 
 

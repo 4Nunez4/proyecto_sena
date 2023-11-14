@@ -268,7 +268,7 @@ header {
 .box-contenido-img-grande{ grid-area: box-contenido-img-grande;
     text-align: center;
 }
-.display-none{
+.main-content{
     display: none !important;
 }
 .txt-img-grande{
@@ -283,11 +283,34 @@ header {
    background-color: #3f3131;
    margin-bottom: 10px;
 }
+.txt-seccion{
+ font-size: 24px;
+}
+.txt-marca-seccion{
+    font-size: 15px;
 
+}
+.txt-marca{
+    text-decoration: none;
+    color: #007185;
+}
+.estrellas-section{
+     display: flex;
+    flex-direction: row;   
+}
+
+.estrella{
+    cursor: pointer;
+    color: burlywood;
+    font-size: 15px;
+}
 .box-contenido-compra{ grid-area: box-contenido-compra;
     background-color: #b12323;
 
 }
+
+
+
 /*watafaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa*/
 
 
