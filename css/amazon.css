@@ -224,6 +224,9 @@ header {
     color: #5a5a5a;
 }
 /*terminar de organizar////////////////////////////////////////*/
+
+/*! inicio de adminisracion de contenedores de compra*/
+/*! contenedor numero 1 */
 .box-contenido-producto{
     position: relative;
     width: 100%;
@@ -238,9 +241,6 @@ header {
 .box-contenido-img-muestra{grid-area: box-contenido-img-muestra;
     margin-left: 10px;
     position: relative;
-    /* display: grid;
-    grid-template: "muestra-1 muestra-2 muestra-3 muestra-4 muestra-5 muestra-6 muestra-7 muestra-8" 
-    repeat(8, 1fr); */
     display: flex;
     flex-direction: column;
     gap: 10px;
@@ -248,7 +248,7 @@ header {
 }
 .box-contenido-img-muestra >.box-imagen-muestra{
     
-    background-color: #727272;
+    
     width: 100%;
     height: 60px;
     border: 1px solid rgb(255, 255, 255);
@@ -264,7 +264,7 @@ header {
     width: 100%;
     border-radius: 15px;
 }
-
+/*! contenedor numero 2 */
 .box-contenido-img-grande{ grid-area: box-contenido-img-grande;
     text-align: center;
 }
@@ -274,13 +274,13 @@ header {
 .txt-img-grande{
     color: #808080;
 }
-
+/*! contenedor numero 3 */
 .box-contenido-deescripcion{ grid-area: box-contenido-deescripcion ;
-    background-color: #6d6d6d;
+    
 }
 
 .seccion{
-   background-color: #3f3131;
+   
    margin-bottom: 10px;
 }
 .txt-seccion{
@@ -304,6 +304,36 @@ header {
     color: burlywood;
     font-size: 15px;
 }
+.estrella:hover{
+    color: #007185;
+}
+.box-seccion-2{
+    
+}
+.opcion-text{
+    
+    text-align: center;
+    height: 1.5em;
+    width: 9em;
+    font-size: 15px;
+    background-color: #041053;
+    text-decoration: none;
+    cursor: pointer;
+    
+}
+.txt-opcion-blanco{
+    
+    color: white;
+}
+.txt-opcion-naranja{
+    color: rgb(255, 72, 0);
+}
+
+
+
+
+
+/*! contenedor numero 4 */
 .box-contenido-compra{ grid-area: box-contenido-compra;
     background-color: #b12323;
 
@@ -311,10 +341,10 @@ header {
 
 
 
-/*watafaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa*/
+/*! watafaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa*/
 
 
-/*//////////////////desplegableee/////////////*/
+/*! //////////////////desplegableee/////////////*/
 
 .box-modal {
     position: fixed;
@@ -452,7 +482,7 @@ header {
     border: 2px solid rgb(15, 25, 168);
 }
 
-/*////////////fin del desplegable //////////////////////*/
+/*! ////////////fin del desplegable ////////////////////// */
 
 /*responsive laptop*/
 @media only screen and (min-width :300px) and (max-width :1104px){
@@ -461,192 +491,6 @@ header {
 
 /*////////////////// responsive teléfono///////*/
 @media only screen and (min-width :300px) and (max-width :1104px){
-    header {
-        background-color: rgb(35, 47, 62);
-        width: 100%;
-        height: 60px;
-        display: grid;
-        grid-template: "header-logo header-enviar-a" 30px/
-                    "header-identificate header-carrito"
 
-        /* " box-header-search-input header-flag-country header-identificate header-devoluciones header-carrito" 60px / */
-            1fr 1fr ;
-    }
-    
-    .header-logo {
-        grid-area: header-logo;
-        display: flex;
-        justify-content: center;
-        align-items: center;
-        width: 130px;
-        height: 70px;
-    }
-    
-    .img-main-logo {
-        width: 90%;
-        color: white;
-        padding-left: 15px;
-    }
-    
-    .header-enviar-a {
-        grid-area: header-enviar-a;
-        display: grid;
-        grid-template: "box-icon-location box-texto-enviar-a"
-            "box-icon-location box-texto-colombia" /
-            20px 70px;
-
-    }
-    
-    .box-icon-location {
-        height: 60px;
-        grid-area: box-icon-location;
-        color: white;
-        font-size: 1.3em;
-        display: flex;
-        align-items: center;
-    }
-    
-    .icon-location {
-        font-size: .9em;
-    }
-    
-    .box-texto-enviar-a {
-        grid-area: box-texto-enviar-a;
-        color: white;
-        position: relative;
-        top: 10px;
-        font-size: .7em;
-        font-weight: 300;
-    }
-    
-    .box-texto-colombia {
-        grid-area: box-texto-colombia;
-        font-size: .9em;
-        font-weight: 500;
-        color: white;
-        position: relative;
-        bottom: 4px;
-    }
-    
-    .box-header-search-input {
-        grid-area: box-header-search-input;
-        display: flex;
-        justify-content: center;
-        align-items: center;
-    }
-    
-    .header-search-input {
-        height: 40px;
-        width: 100%;
-        display: grid;
-        grid-template: "box-filtro-todos  box-buscar-amazon  box-lupa" /
-            70px 1fr 50px;
-    }
-    
-    .box-filtro-todos {
-        grid-area: box-filtro-todos;
-        background-color: rgb(230, 230, 230);
-        border-top-left-radius: 8px;
-        border-bottom-left-radius: 8px;
-    }
-    
-    .filtro-todos {
-        display: flex;
-        align-items: center;
-        height: 40px;
-    }
-    
-    .header-todos {
-        padding: 0 4px 0 15px;
-        font-size: .7em;
-    }
-    
-    .icon-chevron {
-        font-size: .7em;
-    }
-    
-    .box-buscar-amazon {
-        grid-area: box-buscar-amazon;
-        background-color: white;
-        width: 100%;
-    }
-    
-    .input-busqueda {
-        border: none;
-        height: 40px;
-        padding-left: 10px;
-        font-size: 1.1em;
-        width: 100%;
-        outline: none;
-    }
-    
-    .input-busqueda::placeholder {
-        font-size: .8em;
-        font-weight: 500;
-    }
-    
-    .box-lupa {
-        height: 40px;
-        background-color: rgb(254, 189, 105);
-        border-top-right-radius: 8px;
-        border-bottom-right-radius: 8px;
-        display: flex;
-        justify-content: center;
-        align-items: center;
-    }
-    
-    .lupa {
-        grid-area: lupa;
-    }
-    
-    .icon-lupa {
-        font-size: 1.1em;
-    }
-    
-    .header-flag-country {
-        grid-area: header-flag-country;
-    }
-    
-    .box-flag {
-        padding: 20px 5px 0px;
-    }
-    
-    .txt-idioma {
-        position: absolute;
-        color: white;
-        padding-left: 40px;
-        top: 22px;
-    }
-    
-    .down-arrow {
-        position: absolute;
-        color: white;
-        padding-left: 42px;
-        top: 37px;
-    }
-    
-    .header-identificate {
-        grid-area: header-identificate;
-        padding: 10px;
-        color: white;
-    
-    }
-    
-    .text-signin {
-        font-weight: 900;
-    }
-    
-    .header-devoluciones {
-        grid-area: header-devoluciones;
-        padding: 10px;
-        color: white;
-    }
-    
-    .header-carrito {
-        grid-area: header-carrito;
-        padding: 10px;
-        color: white;
-        font-size: 2.5em;
-    }
 
     }
