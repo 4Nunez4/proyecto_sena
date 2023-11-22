@@ -6,7 +6,7 @@
 }
 
 header {
-    background-color: rgb(35, 47, 62);
+    background-color: rgb(0, 69, 62);
     width: 100%;
     height: 60px;
     display: grid;
@@ -190,7 +190,7 @@ header {
 }
 /*//////////list/////////////*/
 .botones-inferiores {
-    background-color: rgb(49, 69, 95);
+    background-color: rgb(25, 88, 81);
     height: 45px;
     color: white;
 }
@@ -237,6 +237,10 @@ header {
 .verde{
     color: green;
 }
+.rojo{
+    color: rgb(179, 19, 19);
+    font-weight: 600;
+}
 /*! inicio de adminisracion de contenedores de compra*/
 /*! contenedor numero 1 */
 .box-contenido-producto{
@@ -244,9 +248,9 @@ header {
     width: 100%;
     height: 100%;
     display: grid;
-    grid-template: " box-contenido-img-muestra  box-contenido-img-grande   box-contenido-deescripcion   box-contenido-compra " 45em/
-                                     4.5em                  2fr                           3.5fr                          1fr               ;
-}
+    grid-template: "l box-contenido-img-muestra  box-contenido-img-grande   box-contenido-deescripcion   box-contenido-compra r" 45em/
+                    1fr                 4.5em                  2fr                           30em                15em         1fr      ;
+}/*! modificar las medidas para que se adapete */
 .contenido{
     margin-right: 10px;
 }
@@ -278,6 +282,7 @@ header {
 }
 /*! contenedor numero 2 */
 .box-contenido-img-grande{ grid-area: box-contenido-img-grande;
+  
     text-align: center;
 }
 .main-content{
@@ -398,7 +403,10 @@ header {
 
 .lista-sobre-articulo{
     padding-left: 20px;
-    line-height: 25px;
+    line-height: 19px;
+}
+.lista-articulo{
+    font-size: 14px;
 }
 /*! contenedor numero 4 */
 .box-contenido-compra{ grid-area: box-contenido-compra;
@@ -413,7 +421,46 @@ header {
  
     
 }
+.contenido-lista-cantidad{
+    background-color: #ececec;
+    border: none;
+    border-radius: 5px 5px 5px 5px ;
+    
+}
+.btn-agregar-carrito{
+   display: flex;
+    justify-content: center;
+    align-items: center;
+    
+    text-align: center;
+    background-color: rgb(255, 230, 2);
+    height: 35px;
+    border-radius: 40px;
+    margin: 10px;
+}
+.btn-agregar-carrito:hover{
+    background-color: rgb(228, 207, 22);
+}
 
+.btn-comprar-ahora{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    text-align: center;
+    background-color: rgb(255, 136, 0);
+    height: 35px;
+    border-radius: 40px;
+    margin: 10px;
+
+
+}
+.btn-comprar-ahora:hover{
+    background-color: rgb(255, 115, 0)
+}
+.advertencia-stock{
+    font-size: 15px;
+}
 
 /*! watafaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa*/
 
